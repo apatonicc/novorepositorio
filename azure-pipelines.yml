@@ -6,7 +6,7 @@
 trigger:
 - main
 
-pool: k8s
+pool: Default
 
 
 steps:
