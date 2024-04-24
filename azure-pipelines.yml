@@ -14,5 +14,7 @@ steps:
   displayName: 'Run a one-line script'
 
 - script: |
-    echo "Test with set -e flag inside the script"
+    echo "Setting 'set -euo pipefail'"
+    set -euo pipefail
+    echo "Test with set -euo pipefail flag inside the pipeline"
     /home/azureuser/test.sh
