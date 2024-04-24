@@ -15,4 +15,5 @@ steps:
 
 - script: |
     echo "Test with set -e flag"
+    set -e
     /home/azureuser/test.sh
