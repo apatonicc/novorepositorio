@@ -8,5 +8,6 @@ pool: Default
 
 steps:
 - script: |
+    set -e
     docker
     echo "Hello World"
