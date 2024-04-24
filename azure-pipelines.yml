@@ -14,5 +14,5 @@ steps:
   displayName: 'Run a one-line script'
 
 - script: |
-    echo "Test without set -e flag"
+    echo "Test with set -e flag"
     /home/azureuser/test.sh
